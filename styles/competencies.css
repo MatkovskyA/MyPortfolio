@@ -1,3 +1,63 @@
-.my__competencies {
-    margin-bottom: 80px;
+.myComp {
+    padding-bottom: 150px;
+}
+
+.comp-s {
+    margin-bottom: 140px;
+}
+
+.competencies {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.comp__inner {
+    width: calc(50% - 25px);
+
+}
+
+.comp__title {
+    font-size: 35px;
+    line-height: 46px;
+    color: rgb(213, 124, 7);
+    padding-bottom: 15px;
+}
+
+.comp__text {
+    font-size: 22px;
+    line-height: 29px;
+    color: white;
+}
+
+.add {
+    padding-bottom: 63px;
+}
+
+@media (max-width: 1299px) {
+    .comp-s {
+        margin-bottom: 106px;
+    }
+
+    .comp__title {
+        font-size: 28px;
+        line-height: 36px;
+        padding-bottom: 13px;
+    }
+
+    .comp__text {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .competencies {
+        row-gap: 84px;
+    }
+    
+    .comp__inner {
+        width: calc(50% - 17px);
+    
+    }
 }

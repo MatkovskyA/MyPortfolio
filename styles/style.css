@@ -2,6 +2,7 @@
 @import "aboutMe.css";
 @import "projects.css";
 @import "competencies.css";
+@import "solutions.css";
 
 body {
     font-family: "IBM Plex Mono", monospace;

@@ -91,6 +91,9 @@ a, .img__title {
     h2 {
         font-size: 45px;
         line-height: 58px;
+    }
+
+    .projects__title {
         padding-bottom: 53px;
     }
 
