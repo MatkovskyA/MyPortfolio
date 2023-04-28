@@ -1,0 +1,123 @@
+.projects {
+    padding: 150px 0;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 72px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.project {
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+.clarification {
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    background-color: rgb(40, 40, 71);
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.9;
+    color: white;
+}
+
+.project__clar {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.project__text {
+    text-transform: lowercase;
+    color: white;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.project__wrapper {
+    position: absolute;
+    max-width: 400px;
+    left: 50px;
+    bottom: 50px;
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 46px;
+    background-color: rgb(40, 40, 71);
+    border-radius: 10px;
+    padding: 5px;
+    opacity: 0.9;
+}
+
+a, .img__title {
+    text-decoration: none;
+    color: white;
+}
+
+  .project__img {
+    margin-bottom: -3px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.see__all__projects {
+    display: block;
+    text-align: center;
+    max-width: 582px;
+    margin-top: 80px;
+    font-size: 30px;
+    line-height: 39px;
+    padding: 56px 0px;
+    border-radius: 10px;
+    background-color: rgb(213, 124, 7);
+    transition: color 0.3s;
+    color: black;
+    text-decoration: none;
+
+}
+
+.see__all__projects:hover {
+    color: rgb(213, 124, 7);
+    background-color: black;
+    border: 1px solid rgb(213, 124, 7);
+}
+
+  @media (max-width: 1199px) {
+    h2 {
+        font-size: 45px;
+        line-height: 58px;
+        padding-bottom: 53px;
+    }
+
+    .clarification {
+        left: 40px;
+        top: 40px;
+    }
+
+    .project__clar {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .project__wrapper {
+        left: 40px;
+        bottom: 40px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .project__text {
+        font-size: 24px;
+        line-height: 31px;      
+    }
+
+    .see__all__projects {
+        font-size: 24.2609px;
+        line-height: 32px;
+        padding: 45px 0px;
+        margin-top: 64px;
+    }
+  }

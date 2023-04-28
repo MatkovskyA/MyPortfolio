@@ -1,0 +1,58 @@
+.header {
+    height: 100%;
+    background-image: url(../resources/port.jpg);
+    object-fit: contain;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutMe__inner {
+    padding-top: 350px;
+    padding-bottom: 78px;
+}
+
+.aboutMeText {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    max-width: 530px;
+    font-size: 25px;
+    line-height: 26px;
+    margin-bottom: 28px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+h1 {
+    max-width: 880px;
+    font-size: 75px;
+    line-height: 70px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    color: rgb(127, 255, 172);
+    text-shadow:  rgb(90, 75, 18) 0 0 10px;
+}
+
+@media (max-width: 1199px) {
+    .header {
+        background-position: right 35% bottom 45%;;
+    }
+    .aboutMe__inner {
+        padding-top: 368px;
+        padding-bottom: 60px;
+    }
+    
+    .aboutMeText {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 29px;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+}
+
