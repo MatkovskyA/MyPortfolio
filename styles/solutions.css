@@ -1,3 +1,44 @@
+.solutions {
+    padding-bottom: 150px;
+}
+
 .task {
     padding-bottom: 80px;
+}
+
+.solution__text, .solution__title {
+    color: white;
+}
+
+.solution__block_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 42px 64px 42px;
+    background-color: rgb(50, 49, 49);
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+.solution__block {
+    width: calc(50% - 25px);
+}
+
+.solution__title {
+    font-size: 45px;
+    line-height: 58px;
+    color: rgb(184, 53, 184);
+}
+
+.solution__text {
+    font-size: 22px;
+    line-height: 29px;
+}
+
+.solution__img {
+    margin-bottom: -5px;
+}
+
+.dist {
+    margin-bottom: 0px;
 }
