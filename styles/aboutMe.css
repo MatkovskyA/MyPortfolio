@@ -56,3 +56,20 @@ h1 {
     }
 }
 
+@media (max-width: 767px) {
+    .aboutMe__inner {
+        padding-top: 338px;
+    }
+
+    .aboutMeText {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 47px;
+    }
+}
+
