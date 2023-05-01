@@ -42,7 +42,7 @@ h2 {
 
 .project__wrapper {
     position: absolute;
-    max-width: 400px;
+    max-width: 100%;
     left: 50px;
     bottom: 50px;
     text-transform: uppercase;
@@ -60,8 +60,11 @@ a, .img__title {
 }
 
   .project__img {
+    display: block;
     margin-bottom: -3px;
     width: 100%;
+    height: auto;
+    object-fit: cover; 
     border-radius: 25px;
 }
 
@@ -114,6 +117,10 @@ a, .img__title {
         line-height: 36px;
     }
 
+    .project__img {
+        width: 100%;
+    }
+
     .project__text {
         font-size: 24px;
         line-height: 31px;      
@@ -129,6 +136,7 @@ a, .img__title {
 
   @media (max-width: 767px) {
     .projects {
+        padding-top: 100px;
         padding-bottom: 100px;
     }
 
@@ -170,4 +178,11 @@ a, .img__title {
         padding: 28px 0px;
         margin-top: 66px;
     }
+
+    .project__img {
+        height: 450px;
+        object-fit: cover; 
+        object-position: left;
+    }
+
   }

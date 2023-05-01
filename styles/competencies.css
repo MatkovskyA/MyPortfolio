@@ -35,7 +35,7 @@
     padding-bottom: 63px;
 }
 
-@media (max-width: 1299px) {
+@media (max-width: 1199px) {
     .comp-s {
         margin-bottom: 106px;
     }
@@ -73,5 +73,9 @@
     .competencies {
         column-gap: 106px;
         flex-direction: column;
+    }
+
+    .comp__inner {
+        width: 100%;
     }
 }
