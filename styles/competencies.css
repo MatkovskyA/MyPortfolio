@@ -35,6 +35,56 @@
     padding-bottom: 63px;
 }
 
+.first::before {
+    background-color: rgb(213, 124, 7);
+    display: block;
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background-image: url(/resources/html.png);
+    background-repeat: no-repeat;
+}
+
+.second::before {
+    background-color: rgb(213, 124, 7);
+    display: block;
+    content: "";
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background-image: url(/resources/Js.png);
+    background-repeat: no-repeat;
+}
+
+.full::before {
+    background-color: rgb(213, 124, 7);
+    display: block;
+    content: "";
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background-image: url(/resources/icons8-ок-25.png);
+    background-repeat: no-repeat;
+}
+
+.add::before {
+    background-color: rgb(213, 124, 7);
+    display: block;
+    content: "";
+    object-fit: contain;
+    width: 26px;
+    height: 27px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background-image: url(/resources/addaptive.png);
+    background-repeat: no-repeat;
+}
+
 @media (max-width: 1199px) {
     .comp-s {
         margin-bottom: 106px;
