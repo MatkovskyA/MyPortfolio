@@ -14,16 +14,51 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__nav"></div>
-            <div class="aboutMe__inner">
-                <p class="aboutMeText">
-                Разрабатываю крутые имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов
-                </p>
-                <h1>Привет, я Анатолий — фронтенд разработчик</h1>
+            <div class="header__fix">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="#">Mat_Kovsky</a>
+                    </div>
+                    <nav class="header__nav">
+                        <a href="#" class="nav__link">портфолио</a>
+                        <a href="#" class="nav__link">компетенции</a>
+                        <a href="#" class="nav__link">услуги</a>
+                        <a href="#" class="nav__link">контакты</a>
+                    </nav>
+                    <button class="js-burger_btn burger_btn"></button>
+                </div>
+            </div>
+        </div>
+        <div class="js-burger burger">
+            <div class="burger_content">
+                <div class="burger_logo">
+                    <a class="burger__title" href="#">Mat_Kovsky</a>
+                    </div>
+                <nav class="burger__nav">
+                    <ul class="burger__nav_list">
+                        <li class="burger__nav_link">ПОРТФОЛИО</li>
+                        <li class="burger__nav_link">КОМПЕТЕНЦИИ</li>
+                        <li class="burger__nav_link">УСЛУГИ</li>
+                        <li class="burger__nav_link">КОНТАКТЫ</li>
+                    </ul>
+                </nav>
+                <p class="burger__con">для связи:</p>
+                <ul class="js-burger_content burger__contacts">
+                    <a href="tel:+79773023310">+79773023310</a>
+                    <a target="_blank" href="https://t.me/Mat_Kovsky">Mat_Kovsky</a>
+                </ul>
             </div>
         </div>
     </header>
     <main class="main">
+        <div class="aboutMe__inner">
+            <div class="container">
+            <p class="aboutMeText">
+            Разрабатываю крутые имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов
+            </p>
+            <h1>Привет, я Анатолий — фронтенд разработчик</h1>
+        </div>
+    </div>
         <div id="projects" class="projects">
             <div class="container">
         <h2 class="projects__title">Самые свежие проекты</h2>
@@ -151,6 +186,7 @@
             </div>
         </div>
     </footer>
-
+-->
+<script src="burger.js"></script>
 </body>
 </html>

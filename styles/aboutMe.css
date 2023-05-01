@@ -1,13 +1,11 @@
-.header {
+.aboutMe__inner {
     height: 100%;
+    position: relative;
     background-image: url(../resources/port.png);
     object-fit: contain;
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.aboutMe__inner {
     padding-top: 350px;
     padding-bottom: 78px;
 }

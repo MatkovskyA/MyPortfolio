@@ -5,6 +5,7 @@
 @import "solutions.css";
 @import "contacts.css";
 @import "footer.css";
+@import "burger.css";
 
 body {
     font-family: "IBM Plex Mono", monospace;
